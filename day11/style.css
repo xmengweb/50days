@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+.container {
+  margin: 50px 0;
+  width: 100%;
+  max-width: 650px;
+}
+h1 {
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+.item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  height: 85px;
+  text-align: left;
+  border: 1px solid #9fa4a8;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.item p {
+  font-size: 20px;
+  margin-left: 25px;
+}
+.item button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 15px;
+  top: 25px;
+  border: 0;
+}
+.item button:hover {
+  cursor: pointer;
+}
+.iconfont.icon-guanbi {
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */

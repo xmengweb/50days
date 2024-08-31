@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      width: 300px;
+      height: 300px;
+      background-color: aliceblue;
+      border-radius: 50px;
+      border: 3px solid gray;
+      display: flex;
+      justify-content: space-between;
+      padding: 50px;
+    }
+
+    .round {
+      width: 50px;
+      height: 50px;
+      background-color: black;
+      border-radius: 25px;
+    }
+
+    .round:nth-child(2) {
+      align-self: center;
+    }
+
+    .round:nth-child(3) {
+      align-self: flex-end;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="round"></div>
+    <div class="round"></div>
+    <div class="round"></div>
+  </div>
+</body>
+
+</html>

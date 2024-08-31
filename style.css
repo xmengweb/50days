@@ -129,14 +129,13 @@ nav .container {
 }
 
 #projects {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 4px;
 }
 
 #projects img {
     width: 100%;
-    height: 100%;
 }
 
 #projects>div {
@@ -160,7 +159,6 @@ nav .container {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
     flex-direction: column;
     justify-content: center;

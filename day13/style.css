@@ -1,0 +1,27 @@
+body {
+  background-color: #7bdaf3;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+body .add {
+  background-color: #9ec862;
+  border: 0;
+  color: #fff;
+}
+body .notes .note {
+  width: 500px;
+  height: 500px;
+}
+body .notes .note .tools {
+  width: 100%;
+  background-color: #9ec862;
+}
+body .notes .note .main {
+  width: 100%;
+}
+body .notes .note .main .textarea {
+  width: 100%;
+}
